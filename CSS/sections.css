@@ -1,0 +1,329 @@
+
+/*SECTIONS - GLOBAL - SECTIONS - GLOBAL - SECTION*/
+/*SECTIONS - GLOBAL - SECTIONS - GLOBAL - SECTION*/
+/*SECTIONS - GLOBAL - SECTIONS - GLOBAL - SECTION*/
+
+@media (min-width: 1400px){
+  .frontpage section {
+    height: 100vh;
+  }
+}
+@media (min-width: 1800px){
+  .frontpage section {
+    height: 120vh;
+  }
+}
+
+
+
+
+/*CAFE - CAFE - CAFE - CAFE - CAFE - CAFE - CAFE*/
+/*CAFE - CAFE - CAFE - CAFE - CAFE - CAFE - CAFE*/
+/*CAFE - CAFE - CAFE - CAFE - CAFE - CAFE - CAFE*/
+
+.cafeSection {
+  background-color: var(--cafe-color);
+  /* height: 100vh; */
+}
+
+.cafeSection__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em 0;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.cafeSection__text {
+  align-self: center;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cafeSection__heading,
+.cafeSection__subHeading,
+.cafeSection__link
+ {
+  text-align: center;
+}
+.cafeSection__heading {
+
+}
+
+.cafeSection__subHeading {
+  margin-bottom: 1em;
+}
+
+.cafeSection__link {
+  box-shadow:  20px 20px 60px var(--cafe-shadow-1),
+             -20px -20px 60px var(--cafe-shadow-2);
+  transition: all 0.3s;
+}
+.cafeSection__link:hover {
+  box-shadow:  20px 20px 60px var(--cafe-shadow-darker),
+  -20px -20px 60px var(--cafe-shadow-2);
+}
+
+.cafeSection__figure {
+  overflow: hidden;
+  margin: 0;
+}
+
+.cafeSection__slider {
+  display: flex;
+  /* transform: translate(-200px); */
+}
+
+.cancer-svg {
+  width: 100%;
+}
+.cafeSection__image {
+  width: 100%;
+}
+
+
+/*FOREDRAG - FOREDRAG - FOREDRAG - FOREDRAG - FOREDRAG*/
+/*FOREDRAG - FOREDRAG - FOREDRAG - FOREDRAG - FOREDRAG*/
+/*FOREDRAG - FOREDRAG - FOREDRAG - FOREDRAG - FOREDRAG*/
+
+
+.lectureSection {
+  background-color: var(--lecture-color);
+  /* height: 100vh; */
+}
+
+.lectureSection__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em 0;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.lectureSection__text {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lectureSection__heading,
+.lectureSection__subHeading,
+.lectureSection__link
+ {
+  text-align: center;
+}
+.lectureSection__heading {
+
+}
+
+.lectureSection__subHeading {
+  margin-bottom: 1em;
+}
+
+.lectureSection__link {
+  box-shadow:  20px 20px 60px var(--lecture-shadow-1),
+             -20px -20px 60px var(--lecture-shadow-2);
+  transition: all 0.3s;
+}
+.lectureSection__link:hover {
+  box-shadow:  20px 20px 60px var(--lecture-shadow-darker),
+  -20px -20px 60px var(--lecture-shadow-2);
+}
+
+
+.lectureSection__figure {
+  overflow: hidden;
+  margin: 0;
+}
+
+.lectureSection__slider {
+  display: flex;
+  width: 100%;
+  /* transform: translate(-200px); */
+}
+
+.cancer-svg {
+  width: 100%;
+}
+.lectureSection__image {
+  width: 100%;
+}
+
+
+
+/*NYHEDSBREV - NYHEDSBREV - NYHEDSBREV - NYHEDSBREV - NYHEDSBREV*/
+/*NYHEDSBREV - NYHEDSBREV - NYHEDSBREV - NYHEDSBREV - NYHEDSBREV*/
+/*NYHEDSBREV - NYHEDSBREV - NYHEDSBREV - NYHEDSBREV - NYHEDSBREV*/
+
+.newsletterSection {
+  background-color: var(--newsletter-color);
+  /* height: 100vh; */
+}
+
+.newsletterSection__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em 0;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.newsletterSection__text {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletterSection__heading,
+.newsletterSection__subHeading,
+.newsletterSection__link
+ {
+  text-align: center;
+}
+.newsletterSection__heading {
+
+}
+
+.newsletterSection__subHeading {
+  margin-bottom: 1em;
+}
+
+.newsletterSection__link {
+  box-shadow:  20px 20px 60px var(--newsletter-shadow-1),
+             -20px -20px 60px var(--newsletter-shadow-2);
+  transition: all 0.3s;
+}
+.newsletterSection__link:hover {
+  box-shadow:  20px 20px 60px var(--newsletter-shadow-darker),
+  -20px -20px 60px var(--newsletter-shadow-2);
+}
+
+.newsletterSection__figure {
+  overflow: hidden;
+  margin: 0;
+}
+
+.newsletterSection__slider {
+  display: flex;
+  /* transform: translate(-200px); */
+}
+
+.cancer-svg {
+  width: 100%;
+}
+.newsletterSection__image {
+  width: 100%;
+}
+
+
+
+/*MEDLEM - MEDLEM - MEDLEM - MEDLEM - MEDLEM - MEDLEM*/
+/*MEDLEM - MEDLEM - MEDLEM - MEDLEM - MEDLEM - MEDLEM*/
+/*MEDLEM - MEDLEM - MEDLEM - MEDLEM - MEDLEM - MEDLEM*/
+
+.membersSection {
+  background-color: var(--members-color);
+  /* height: 100vh; */
+}
+
+.membersSection__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em 0;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.membersSection__text {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.membersSection__heading,
+.membersSection__subHeading,
+.membersSection__link
+ {
+  text-align: center;
+}
+.membersSection__heading {
+
+}
+
+.membersSection__subHeading {
+  margin-bottom: 1em;
+}
+
+.membersSection__link {
+  box-shadow:  20px 20px 60px var(--members-shadow-1),
+             -20px -20px 60px var(--members-shadow-2);
+  transition: all 0.3s;
+}
+.membersSection__link:hover {
+  box-shadow:  20px 20px 60px var(--members-shadow-darker),
+  -20px -20px 60px var(--members-shadow-2);
+}
+
+.membersSection__figure {
+  overflow: hidden;
+  margin: 0;
+}
+
+.membersSection__slider {
+  display: flex;
+  /* transform: translate(-200px); */
+}
+
+.cancer-svg {
+  width: 100%;
+}
+.membersSection__image {
+  width: 100%;
+}
+
+
+/*GENERAL MEDIA-QUERIES - GENERAL MEDIA-QUERIES - GENERAL MEDIA-QUERIES*/
+/*GENERAL MEDIA-QUERIES - GENERAL MEDIA-QUERIES - GENERAL MEDIA-QUERIES*/
+/*GENERAL MEDIA-QUERIES - GENERAL MEDIA-QUERIES - GENERAL MEDIA-QUERIES*/
+
+
+@media (max-width: 900px) {
+  .frontpage section {
+    height: 50vh;
+    display: flex;
+  }
+  .frontpage section div {
+    grid-template-columns: 1fr;
+  }
+  .frontpage section h2 {
+    font-size: 3em;
+  }
+  .frontpage section h3 {
+    font-size: 2em;
+  }
+  figure {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .frontpage section {
+    height: 60vh;
+  }
+
+  .navbar__navigationLink  {
+    box-shadow:  none;
+    transition: all 0.3s;
+  }
+  
+}
+
+@media (max-width: 750px) {
+  .frontpage section {
+    height: 60vh;
+  }
+}

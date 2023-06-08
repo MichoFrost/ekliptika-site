@@ -1,0 +1,59 @@
+:root {
+
+/*PRIMÆRE*/
+--primary-color: #fcf4ee;
+--primary-shadow-1: #d6cfca;
+--primary-shadow-2: #ffffff;
+--primary-shadow-darker: #b1b1b1;
+
+
+/*CAFÉ-AFTENER*/
+--cafe-color: #538E72;
+--cafe-shadow-1: #477961;
+--cafe-shadow-2: #5fa383;
+--cafe-shadow-darker: #375e4b;
+
+/*FOREDRAG*/
+--lecture-color: #fcf4ee;
+--lecture-shadow-1: #d6cfca;
+--lecture-shadow-2: #ffffff;
+--lecture-shadow-darker: #b1b1b1;
+
+/*NYHEDSBREV*/
+--newsletter-color: #753F43;
+--newsletter-shadow-1: #633639;
+--newsletter-shadow-2: #87484d;
+--newsletter-shadow-darker: #3f2324;
+
+/*MEDLEMSSKAB*/
+--members-color: #fcf4ee;
+--members-shadow-1: #d6cfca;
+--members-shadow-2: #ffffff;
+--members-shadow-darker: #b1b1b1;
+
+/*FOOTER*/
+--footer-color: #410909;
+--footer-shadow-1: #370808;
+--footer-shadow-2: #4b0a0a;
+--footer-shadow-darker: #1e0303;
+}
+
+
+
+/*TEKST*/
+
+.lightText {
+  color: var(--primary-color);
+}
+
+
+
+/*CAFÉ-UNDERSIDE*/
+
+/*FOREDRAG-UNDERSIDE*/
+
+/*NYHEDSBREV-UNDERSIDE*/
+
+/*MEDLEMSSKAB-UNDERSIDE*/
+
+

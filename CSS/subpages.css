@@ -1,0 +1,98 @@
+/*SUBPAGE - GENERAL LAYOUT*/
+
+.subpage__container {
+  display: grid;
+  /* gap: 1em; */
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+.subpage__img-right {
+  grid-template-columns: 3fr 2fr;
+}
+.subpage__img-left {
+  grid-template-columns: 2fr 3fr;
+}
+.subpage__img-right,
+.subpage__img-left {
+  gap: 2em;
+}
+
+
+.subpageHeader {
+  padding-bottom: 3em;
+  /* height: 20vh; */
+}
+.subpageSection {
+  height: 60vh;
+  gap: 2em;
+}
+.subpageFooter {
+  height: auto;
+  padding: 3.5em 0em 2em 0em;
+}
+.subpage__text p {
+  width: 50vw;
+}
+
+
+.subpage__img {
+  width: 400px;
+  align-self: center;
+  justify-self: center;
+  border-radius: 200px;
+}
+
+/*SUBPAGES - MEDIAQUERY*/
+
+
+@media (max-width: 1000px) {
+  .subpage__img {
+    border-radius: 200px;
+    margin-right: 40px;
+  }
+  .subpage__img-left, .subpage__img-right {
+    grid-template-columns: 1fr;
+  }
+
+  .subpage__img-left img {
+    grid-row: 2/3;
+    align-self: start;
+  }
+  
+  .subpageSection {
+    height: auto;
+  }
+
+  .subpageSection {
+
+  }
+  .subpage__text p {
+    width: 80vw;
+  }
+
+
+
+
+}
+@media (max-width: 800px) {
+  .subpageHeader {
+    padding-top: 3em;
+  }
+}
+@media (max-width: 500px) {
+  .subpageSection h2 {
+    /* font-size: 10vw; */
+    font-size: 2.5em;
+    /* text-align: center; */
+  }
+  .subpageSection h3 {
+    font-size: 1.5em;
+    width: 90vw;
+  }
+
+  .subpage__img {
+    width: 80vw;
+  }
+
+}
